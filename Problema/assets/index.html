@@ -21,7 +21,7 @@
 					<p class="texto1"><a href="#"><span class="glyphicon glyphicon-user"></span>Currency <span class="glyphicon glyphicon-chevron-down"></span></a></p>
 				</div>
 			</div><!--Fin de primer banner-->
-			<div class="row blanco"><!--Inicio de segundo banner-->
+			<div class="row padding-5"><!--Inicio de segundo banner-->
 				<div class="col-lg-4"><!--Reloj-->
 					<span class="glyphicon glyphicon-time icono1"></span>
 					<p class="texto2">OPENING TIME <br>9.00 AM - 10.00 PM </p>
@@ -40,7 +40,7 @@
 					</form>
 				</div>
 			</div><!--Fin de segundo banner-->
-			<nav class="navbar navbar-default navbar-fixed-top"><!--Inicio de Nav Bar-->
+			<nav class="navbar navbar-default"><!--Inicio de Nav Bar-->
 					<div class="container">
 					    <div class="navbar-header">
 					        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -63,13 +63,165 @@
 	</header><!--Termina header-->
 	<section><!--Inicia Section-->
 		<div class="container-fluid">
-			<div class="row imagen"><!--Imagen de fondo-->
+			<div class="row imagen"><!--Carrousell-->
 				<div class="col-lg-12 ">
-					
+				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+				    <ol class="carousel-indicators"><!-- del slide-->
+				      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				      <li data-target="#myCarousel" data-slide-to="1"></li>
+				    </ol>
+				    <div class="carousel-inner" role="listbox"><!-- Imagenes Slide -->
+				      <div class="item active">
+				      	<div class="back1"><!--Inicio de primer imagen del slide-->
+				      		<div class="row">
+				      			<div class="col-lg-8">
+									<div class="borde">
+										<p>AUTUMN/WINTER LOOKBOOK</p>
+									</div>
+									<p class="textobl ">- 2016 COLLECTION -</p>
+								</div>
+								<div class="col-lg-4 rellenobl">
+									<div class="row">
+										<div class="col-lg-6 ">
+											<img src="images/cart-1.jpg" alt="imagen1">
+										</div>
+										<div class="col-lg-6">
+											<p>Aliquam Consequat</p>
+											<p>1 x $500 </p>
+										</div>	
+									</div>
+									<div class="row">
+										<div class="col-lg-6 ">
+											<img src="images/cart-2.jpg" alt="imagen2">
+										</div>
+										<div class="col-lg-6">
+											<p>Quisque In Arcuc</p>
+											<p>1 x $200 </p>
+										</div>	
+									</div>
+									<div class="row">
+										<div class="col-lg-6">
+											<p>Sub-Total</p>
+											<p>Eco Tax (-2.00)</p>
+											<p>VAT (20%)</p>
+										</div>
+										<div class="col-lg-6">
+											<p>$700</p>
+											<p>$7.00</p>
+											<p>$40.00</p>
+										</div>
+									</div> 
+								</div>
+							</div>
+				        </div><!--Fin de primer imagen-->
+				      </div>
+				      <div class="item">
+				        <div class="back2"><!--Inicio de segunda imagen-->
+							<div class="row">
+				      			<div class="col-lg-8">
+									<div class="borde">
+										<p>AUTUMN/WINTER LOOKBOOK</p>
+									</div>
+									<p class="textobl ">- 2016 COLLECTION -</p>
+								</div>
+								<div class="col-lg-4 rellenobl">
+									<div class="row">
+										<div class="col-lg-6 ">
+											<img src="images/cart-1.jpg" alt="imagen1">
+										</div>
+										<div class="col-lg-6">
+											<p>Aliquam Consequat</p>
+											<p>1 x $500 </p>
+										</div>	
+									</div>
+									<div class="row">
+										<div class="col-lg-6 ">
+											<img src="images/cart-2.jpg" alt="imagen2">
+										</div>
+										<div class="col-lg-6">
+											<p>Quisque In Arcuc</p>
+											<p>1 x $200 </p>
+										</div>	
+									</div>
+									<div class="row">
+										<div class="col-lg-6">
+											<p>Sub-Total</p>
+											<p>Eco Tax (-2.00)</p>
+											<p>VAT (20%)</p>
+										</div>
+										<div class="col-lg-6">
+											<p>$700</p>
+											<p>$7.00</p>
+											<p>$40.00</p>
+										</div>
+									</div> 
+								</div>
+							</div>
+				        </div> <!--Fin de segunda imagen-->
+				      </div>
+				    </div>
+				    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><!--Controles de navegacion-->
+				      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+				      <span class="sr-only">Atras</span>
+				    </a>
+				    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+				      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+				      <span class="sr-only">Siguiente</span>
+				    </a>
+				  </div>
+				</div>	
+			</div><!--Termina Carrousel-->
+		</div>
+	</section><!--Termina Section-->
+	<section><!--Comienza Section de imagenes-->
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-5">
+					<img src="images/banner1.jpg" alt="imagen" class="espacioarriba-10 img-responsive">
+				</div>
+				<div class="col-lg-7">
+					<img src="images/banner2.jpg" alt="imagen1" class="imagenbanner img-responsive">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12 espacioarriba-2">
+					<hr>
+					<p class="banner2"><span class="glyphicon glyphicon-menu-left"></span> <a href="#">LATEST</a> <a href="#">BESTSELLER</a> <a href="#">SALE</a> <span class="glyphicon glyphicon-menu-right"></span></p>
 				</div>
 			</div>
 		</div>
-	</section><!--Termina Section-->
+	</section><!--Termina section de imagenes-->
+	<section><!--Inicia thumbnail de imagenes-->
+		<div class="container">
+			<div class="row">
+				
+			</div>
+		</div>
+	</section><!--Termina Thumbnail.de imagenes-->
+	<section><!--Seccion de clientes-->
+		<div class="container-fluid fondo2">
+			<div class="row">
+				<div class="col-lg-2">
+					<img src="images/client1.jpg" alt="Cliente1" class="espacioarriba-10 img-responsive">
+				</div>
+				<div class="col-lg-2">
+					<img src="images/client2.jpg" alt="Cliente2" class="espacioarriba-10 img-responsive">
+				</div>
+				<div class="col-lg-2">
+					<img src="images/client3.jpg" alt="Cliente3" class="espacioarriba-10 img-responsive">
+				</div>
+				<div class="col-lg-2">
+					<img src="images/client4.jpg" alt="Cliente4" class="espacioarriba-10 img-responsive">
+				</div>
+				<div class="col-lg-2">
+					<img src="images/client5.jpg" alt="Cliente5" class="espacioarriba-10 img-responsive">
+				</div>
+				<div class="col-lg-2">
+					<img src="images/client6.jpg" alt="Cliente6" class="espacioarriba-10 img-responsive">
+				</div>
+			</div>
+		</div>
+	</section><!--Termina seccion de clientes-->
 
 	<!--Inicio de scripts-->
 	<script src="js/jquery-1.11.3.min.js"></script>

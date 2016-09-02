@@ -4,7 +4,7 @@
 nav.navbar{/*Color del nav bar*/
 	background-color: #D7DBDD;
 	border: none;
-    margin-top: 20%;
+    margin-top: 6%;
 }
 .navbar-default .navbar-nav > li > a { /*Color de links*/
     color: black;
@@ -44,10 +44,16 @@ nav.navbar{/*Color del nav bar*/
     text-decoration: none;
     color: grey;
 }
-.blanco{
+.padding-5{
     padding: 5%;
 }
-.icono1{
+.espacioarriba-10{
+    margin-top: 10%; 
+}
+.espacioarriba-2{
+    margin-top: 2%; 
+}
+.iconos{
     font-size: 400%;
     margin-left: 15%;
     display: inline-block;
@@ -57,4 +63,64 @@ nav.navbar{/*Color del nav bar*/
     font-size: 150%;
     margin-top: -2%;
 }
-
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+.back1{
+    background-image: url(../images/slider1.jpg);
+    width: 100%;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+.back2{
+    background-image: url(../images/slider2.jpg);
+    width: 100%;
+    background-size: cover;
+    margin: auto;
+    height: 400px;
+}
+.borde{
+    border: solid 5px white;
+    width: 80%;
+    margin-top: 30%;
+    opacity: .8;
+    text-align: center;
+    margin-left: 30%;
+    color: white;
+    font-size: 250%;
+}
+.textobl{
+    color: white;
+    font-size: 150%;
+    margin-left: 60%;
+}
+.rellenobl{
+    background-color: white;
+    background-size: cover;
+    width:25%; 
+    margin-top: 2%;
+    padding: 1%;
+}
+.imagenbanner{
+    margin-top: 7%;
+}
+.banner2{
+    text-align: center;
+    margin-top: -3.5%;
+    font-size: 200%;
+}
+.banner2 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 2%;
+}
+.fondo2{
+    background-image: url(../images/client-bg.jpg);
+    background-size: cover;
+    width: 100%;    
+    height: 200px;
+    padding: 5%;
+}
