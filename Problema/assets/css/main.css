@@ -2,27 +2,59 @@
 @import 'https://fonts.googleapis.com/css?family=Indie+Flower';
 
 nav.navbar{/*Color del nav bar*/
-	background-color: #1AAF28;
+	background-color: #D7DBDD;
 	border: none;
-}
-.navbar-default .navbar-brand {/*Color del titulo*/
-    color: white;
-    font-size: 200%;
-    font-family: 'Lobster', cursive;
+    margin-top: 20%;
 }
 .navbar-default .navbar-nav > li > a { /*Color de links*/
-    color: #D7DBDD;
+    color: black;
     font-family: 'Lobster', cursive;
     font-size: 130%;
 }
 .navbar-default .navbar-nav > li > a:hover,/*Color de links puntero sobre ellos*/
 .navbar-default .navbar-nav > li > a:focus {
-    color: black;
+    color: #323232;
 }
 .navbar-default .navbar-nav > .active > a, /*Fondo de links puntero sobre ellos*/
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
     color: white;
-    background-color: #76CB7E;
+    background-color: #B40909;
     font-family: 'Lobster', cursive;
 }
+.navbar-header a{
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+    font-family: 'Lobster', cursive;  
+}
+.navbar-header button {
+    background-color: white;
+}
+.gris{
+    background-color: #D7DBDD;
+    background-size: cover;
+    padding: 2%;
+}
+.texto1{
+    display: inline-block;
+    margin-left: 4%;
+}
+.texto1 a{
+    text-decoration: none;
+    color: grey;
+}
+.blanco{
+    padding: 5%;
+}
+.icono1{
+    font-size: 400%;
+    margin-left: 15%;
+    display: inline-block;
+}
+.texto2{
+    display: inline-block;
+    font-size: 150%;
+    margin-top: -2%;
+}
+
