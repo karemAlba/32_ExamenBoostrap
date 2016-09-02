@@ -124,3 +124,21 @@ nav.navbar{/*Color del nav bar*/
     height: 200px;
     padding: 5%;
 }
+.textorojo{
+    color: #F61305;
+    font-size: 150%;
+    display: inline-block;
+}
+.textotachado{
+    color: #D7DBDD;
+    font-size: 120%;
+    text-decoration: line-through;
+    display: inline-block;
+}
+.img-thumbnail{
+    margin-bottom: 15%;
+}
+button.btn-sm{
+    background-color: black;
+    margin-top: 10%;
+}
